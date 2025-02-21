@@ -1,0 +1,51 @@
+/* Apply a gradient background */
+.leaderboard-container {
+  padding: 20px;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  min-height: 100vh;
+}
+
+/* Center "Leaderboard" between the navbar and leaderboard sections */
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 50px;
+  transform: translateY(-50%);
+  margin: 40px 0;
+}
+
+/* Leaderboard section styles */
+.leaderboard-section {
+  margin-top: 30px;
+}
+
+h3 {
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #ffffff;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.leaderboard-section select {
+  margin-top: 5px;
+  padding: 5px;
+  font-size: 1rem;
+}

@@ -1,0 +1,44 @@
+/* General navbar styling */
+.navbar {
+  background-color: #fffdfd; /* Light background */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between; /* Space between logo and links */
+  align-items: center;
+}
+
+.navbar-logo h1 {
+  font-size: 24px; /* Larger font for the logo */
+  color: #3a2a2a; /* Same color as navbar links */
+  margin: 0; /* Remove margin */
+  cursor: pointer; /* Cursor pointer for hover effect */
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-list li {
+  display: inline;
+}
+
+.navbar-link,
+.logout-button {
+  text-decoration: none;
+  color: #3a2a2a; /* Text color */
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-link:hover,
+.logout-button:hover {
+  text-decoration: underline; /* Add underline on hover for better effect */
+}

@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%);
+  color: #333;
+}
+
+.complaints-container {
+  max-width: 800px;
+  margin: 5% auto;
+  padding: 20px;
+
+  border-radius: 10px;
+  
+  text-align: center;
+}
+
+h2 {
+  color: #b12a5b;
+}
+
+.complaint-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Ensures uniform spacing between all fields */
+  margin-bottom: 30px;
+}
+
+.complaint-form input,
+.complaint-form textarea,
+.complaint-form select,
+.complaint-form button {
+  margin: 0; /* Removes any default browser margins */
+  padding: 12px; /* Ensures uniform padding */
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.complaint-form-title {
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  top: 30%;
+  transform: translateY(-50%);
+  text-align: center;
+  margin: 20px 0;
+}
+
+.complaint-form button {
+  background: #b12a5b;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.complaint-form button:hover {
+  background: #8b2048;
+}
+
+.complaint-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 15px 0;
+  background: #ffffff;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.complaint-card h3 {
+  margin: 0 0 10px;
+  color: #b12a5b;
+}
+
+.votes {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+button {
+  border: none;
+  padding: 8px 14px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.upvote {
+  background: #28a745;
+  color: white;
+}
+
+.upvote:hover {
+  background: #218838;
+}
+
+.downvote {
+  background: #dc3545;
+  color: white;
+}
+
+.downvote:hover {
+  background: #c82333;
+}
+
+button[disabled] {
+  background: #ccc;
+  cursor: not-allowed;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
