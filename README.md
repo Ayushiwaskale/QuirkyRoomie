@@ -40,7 +40,7 @@ npm install
 Configure Environment Variables
 
 Create a .env file in the backend directory:
-MONGO_URI=mongodb+srv://ayushiwaskale:7Al7SBZwlkxkzczR@quirkyroomie.84hdl.mongodb.net/
+MONGO_URI=mongodb+srv://ayushiwaskale:<Pass>@quirkyroomie.84hdl.mongodb.net/
 PORT=5000
 JWT_SECRET=mySuperSecretKey123!@#456$%^
 
